@@ -1,8 +1,8 @@
-<?php namespace Jflight\GACookie;
+<?php namespace CompareAsiaGroup\GACookie;
 
-use Jflight\GACookie\Cookie;
-use Jflight\GACookie\Resolver;
-use Jflight\GACookie\ParseInterface;
+use CompareAsiaGroup\GACookie\Cookie;
+use CompareAsiaGroup\GACookie\Resolver;
+use CompareAsiaGroup\GACookie\ParseInterface;
 
 class Parser
 {
@@ -19,7 +19,7 @@ class Parser
 	/**
 	 * Checks valid cookie type and passes the cookie string down to correct cookie object
 	 * @param  string $cookieName
-	 * @return Jflight\GACookie\ParseInterface|bool
+	 * @return CompareAsiaGroup\GACookie\ParseInterface|bool
 	 */
 	public function parse($cookieName)
 	{

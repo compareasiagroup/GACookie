@@ -1,5 +1,5 @@
 <?php
-use Jflight\GACookie\Cookie;
+use CompareAsiaGroup\GACookie\Cookie;
 use Mockery as m;
 
 class CookieTest extends PHPUnit_Framework_TestCase {

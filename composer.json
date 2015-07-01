@@ -1,5 +1,5 @@
 {
-    "name": "jflight/gacookie",
+    "name": "compareasiagroup/gacookie",
     "license": "MIT",
     "authors": [
         {
@@ -20,7 +20,7 @@
     "autoload":
     {
         "psr-0": {
-            "Jflight\\GACookie":"src"
+            "CompareAsiaGroup\\GACookie":"src"
         }
     }
 }

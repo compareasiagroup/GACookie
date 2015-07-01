@@ -1,4 +1,4 @@
-<?php namespace Jflight\GACookie;
+<?php namespace CompareAsiaGroup\GACookie;
 
 abstract class Cookie implements \ArrayAccess
 {

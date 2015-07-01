@@ -1,6 +1,6 @@
-<?php namespace Jflight\GACookie;
+<?php namespace CompareAsiaGroup\GACookie;
 
-use Jflight\GACookie\ParseInterface;
+use CompareAsiaGroup\GACookie\ParseInterface;
 
 class Utma extends Cookie
 {

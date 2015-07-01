@@ -1,6 +1,6 @@
 <?php
 
-use Jflight\GACookie\Utmz;
+use CompareAsiaGroup\GACookie\Utmz;
 use Mockery as m;
 
 class UtmzTest extends PHPUnit_Framework_TestCase {

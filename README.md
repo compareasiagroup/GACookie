@@ -23,7 +23,7 @@ Parse the cookies (currently supports [__utma__ and __utmz__](https://developers
 ```php
 <?php
 
-use Jflight\GACookie\GACookie;
+use CompareAsiaGroup\GACookie\GACookie;
 
 $utma = GACookie::parse('utma');
 $utmz = GACookie::parse('utmz');

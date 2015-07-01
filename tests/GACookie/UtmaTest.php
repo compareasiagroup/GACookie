@@ -1,6 +1,6 @@
 <?php
 
-use Jflight\GACookie\Utma;
+use CompareAsiaGroup\GACookie\Utma;
 use Mockery as m;
 
 class UtmaTest extends PHPUnit_Framework_TestCase {

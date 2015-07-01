@@ -1,6 +1,6 @@
 <?php
 
-use Jflight\GACookie\Parser;
+use CompareAsiaGroup\GACookie\Parser;
 use Mockery as m;
 
 class ParserTest extends PHPUnit_Framework_TestCase {
@@ -48,9 +48,9 @@ class ParserTest extends PHPUnit_Framework_TestCase {
 
 	protected function getParser()
 	{
-		$this->utma = m::mock('Jflight\GACookie\Utma');
-		$this->utmz = m::mock('Jflight\GACookie\Utmz');
-		$parser = m::mock('Jflight\GACookie\Parser[getCookie]', array($this->utma, $this->utmz ));
+		$this->utma = m::mock('CompareAsiaGroup\GACookie\Utma');
+		$this->utmz = m::mock('CompareAsiaGroup\GACookie\Utmz');
+		$parser = m::mock('CompareAsiaGroup\GACookie\Parser[getCookie]', array($this->utma, $this->utmz ));
 		return $parser;
 	}
 
